@@ -1,0 +1,5 @@
+introductions: 
+quicksort.c----sort int a[x] quickly 
+stringZip.c----change string 'ahhcccck' to 'a2h4ck'
+changearray.c----exchange array[x][x]
+tmp.c----for test
