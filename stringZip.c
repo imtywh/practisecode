@@ -63,10 +63,9 @@ void stringZip(const char *pInputStr, long lInputLen, char *pOutputStr){
 int main(){  //stringzip 字符串压缩  支持连续超过10位的相同字符压缩
 	int n = 100;
 	const char *i = "akkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhndgggxbbb";
-	char *p = (char*)malloc(n*sizeof(char));
+        char *p = (char*)malloc(n*sizeof(char));
 	memset(p, '\0', n*sizeof(char)); //初始化
 	stringZip(i, strlen(i), p);
 	printf("%s\n", p);
-	system("pause");
 	return 0;
 }
